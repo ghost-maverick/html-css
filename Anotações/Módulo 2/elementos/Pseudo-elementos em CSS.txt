@@ -1,0 +1,67 @@
+Pseudo-elementos em CSS são usados ??para estilizar partes específicas de um elemento HTML que não podem ser diretamente selecionados por uma tag ou uma classe. Eles permitem a aplicação de estilos em partes de um conteúdo que normalmente não está explicitamente definido em HTML. Os pseudo-elementos são precedidos por dois pontos (::) e incluem alguns dos seguintes:
+
+::aftere ::before:
+
+Esses pseudoelementos são usados ??para inserir conteúdo antes ( ::before) ou depois ( ::after) do conteúdo real de um elemento. Eles são muito úteis para adicionar efeitos decorativos ou conteúdo extra sem alterar o HTML.
+Exemplo de uso:
+css
+
+Copiar código
+p::after {
+  content: " - fim";
+}
+Nesse exemplo, " - fim"será adicionado no final do conteúdo de cada parágrafo.
+::first-line:
+
+Aplica estilos à primeira linha de texto de um elemento de bloco. É útil, por exemplo, destacar a primeira linha de um parágrafo com uma cor diferente.
+Exemplo:
+css
+
+Copiar código
+p::first-line {
+  font-weight: bold;
+}
+::first-letter:
+
+Este pseudo-elemento estilizado a primeira letra do texto em um elemento. Um uso comum é para criar uma "capitular" (uma letra inicial grande, como encontrada em livros).
+Exemplo:
+css
+
+Copiar código
+p::first-letter {
+  font-size: 2em;
+  color: red;
+}
+::selection:
+
+Este pseudoelemento aplica estilos ao conteúdo que o usuário seleciona com o cursor. Ele pode ser usado para alterar o cor de fundo e o cor do texto do trecho selecionado.
+Exemplo:
+css
+
+Copiar código
+::selection {
+  background-color: yellow;
+  color: black;
+}
+::marker:
+
+Aplicar estilos aos marcadores de listas ( <ul>e <ol>). Isso permite estilizar os marcadores, como mudar a cor ou até usar outros símbolos.
+Exemplo:
+css
+
+Copiar código
+li::marker {
+  color: blue;
+}
+::placeholder:
+
+Estiliza o texto que aparece nos campos do formulário antes que o usuário insira alguma informação (espaço reservado).
+Exemplo:
+css
+
+Copiar código
+input::placeholder {
+  color: gray;
+  font-style: italic;
+}
+Os pseudoelementos são especialmente úteis para melhorar a aparência e a usabilidade do site sem precisar adicionar ou alterar o conteúdo HTML diretamente. Eles oferecem grande flexibilidade para personalizar a interface do usuário e ajudar a criar layouts e efeitos mais sofisticados.

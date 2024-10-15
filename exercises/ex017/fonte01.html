@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidaas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            
+            /* Lighter normal bold bolder */
+        }
+
+        h1 {
+            
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, sequi. Perspiciatis id deleniti numquam, ad vel reprehenderit pariatur tempora rem repudiandae culpa aut voluptates nisi deserunt sapiente voluptatum impedit delectus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui iste quibusdam, eveniet saepe harum a ea dicta nemo iusto consequatur accusantium ipsam, praesentium deserunt? Temporibus non expedita optio reiciendis eligendi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, porro cum consequuntur vitae ab quos doloremque, illo animi rem tempore dolorum ipsa nisi in ut illum? Autem omnis dolorem aliquid?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum maxime veniam quis quam veritatis nesciunt enim qui tempora maiores, soluta vel hic minus nostrum repellendus iure culpa. Hic, ipsa illo.</p>
+    <h2>Subtítuolo do exercicio</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis delectus officiis autem eum suscipit est debitis, iste nulla tempore dolore. Velit amet maxime quae aliquam saepe dolor temporibus dignissimos corrupti.</p>
+</body>
+</html>

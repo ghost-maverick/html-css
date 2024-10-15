@@ -1,0 +1,31 @@
+<main>: Define o conteúdo principal da página. Deve englobar o conteúdo que é diretamente relacionado ao propósito da página, excluindo elementos como cabeçalhos, rodapés, menus de navegação, etc. Ajuda na acessibilidade e na estruturação do conteúdo para motores de busca.
+
+
+border-radius: Define o arredondamento dos cantos de um elemento. Pode ser aplicado em caixas, botões, imagens, etc., para suavizar suas bordas. Pode ser ajustado para um valor uniforme ou valores específicos para cada canto.
+Exemplo:
+
+border-radius: 10px; (arredonda todos os cantos em 10px).
+
+
+box-shadow: Aplica uma sombra em torno de um elemento, criando um efeito de profundidade. Você pode ajustar a cor, o desfoque, o deslocamento horizontal e vertical, e a expansão da sombra.
+Exemplo:
+
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); (sombra deslocada 5px para a direita, 5px para baixo, com um desfoque de 10px e 30% de opacidade).
+
+
+padding: Define o espaço interno entre o conteúdo de um elemento e sua borda. Pode ser aplicado de forma uniforme ou ajustado para cada lado (superior, inferior, esquerdo, direito).
+Exemplo:
+
+padding: 20px; (adiciona 20px de espaço em todos os lados).
+
+
+margin: Define o espaço externo entre um elemento e os outros ao seu redor. Pode ser aplicado de forma uniforme ou ajustado individualmente para cada lado (superior, inferior, esquerdo, direito).
+Exemplo:
+
+margin: 15px; (adiciona 15px de espaço externo em todos os lados).
+
+
+text-shadow: Aplica uma sombra ao texto. Você pode ajustar o deslocamento horizontal e vertical, o desfoque e a cor da sombra.
+Exemplo:
+
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); (sombra 2px à direita, 2px abaixo, com um desfoque de 5px e 50% de opacidade).

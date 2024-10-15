@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url('idroid.otf') format('opentype'); /* Certifique-se de que o caminho para a fonte está correto */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif; /* Mantendo a fonte padrão */
+}
+
+header {
+    background-color: #2DA061;
+    padding: 45px;
+    margin: -2px;
+}
+
+h1#principal {
+    color: white;
+    text-align: center;
+    margin: 0; /* Simplificando as margens */
+    font-family: Arial, Helvetica, sans-serif; /* Mantendo a fonte padrão */
+}
+
+h1#segundo {
+    font-family: 'Idroid', Times, serif; /* Aplicando a fonte personalizada */
+    font-size: 3em;
+    font-weight: normal;
+    color: #333; /* Cor do texto */
+    text-align: left; /* Alinhamento opcional */
+    margin-top: 20px; /* Margem superior */
+}
+
+h2#primeiro {
+    font-family: 'Idroid', Times, serif;
+    font-size: 2em;
+    font-weight: normal;
+    color: #115631;
+    text-align: left;
+    margin-top: -2px;
+}
+
+p#primeiro {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; /* Fonte padrão para parágrafo */
+    font-weight: lighter;
+    margin-top: 2%;
+    margin-bottom: -4%;
+}
+
+p#dois {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+nav {
+    background-color: #2DA061;
+    padding: 3px;
+    margin-right: 48px;
+    margin-top: 93px;
+    margin-left: -41px;
+    margin-bottom: -45px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: -45px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin: 3px auto;
+    border-radius: 0px 0px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+    width: 73%;
+    height: 800px; /* Altura fixa */
+}
+
+article {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+article > aside {
+    background-color: rgb(165, 165, 165);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+

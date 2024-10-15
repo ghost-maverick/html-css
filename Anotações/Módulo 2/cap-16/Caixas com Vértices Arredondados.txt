@@ -1,0 +1,61 @@
+Aula: Caixas com Vértices Arredondados
+Objetivo: Aprender a criar caixas com bordas arredondadas utilizando HTML5 e CSS3.
+
+Introdução
+Caixas com vértices arredondados são um recurso visual popular em design de páginas web. Utilizando CSS, podemos aplicar bordas suavizadas a qualquer elemento, tornando o layout mais agradável e moderno. A propriedade que nos permite arredondar os vértices é chamada border-radius.
+
+Estrutura HTML
+Primeiro, criamos uma caixa simples em HTML:
+
+html
+Copiar código
+<div class="caixa-arredondada">
+    Este é um exemplo de caixa com vértices arredondados.
+</div>
+A estrutura é bem básica, usando apenas uma div com uma classe para estilização.
+
+Estilização CSS
+Para arredondar os vértices dessa caixa, usamos a propriedade border-radius no CSS:
+
+css
+Copiar código
+.caixa-arredondada {
+    width: 300px;
+    height: 150px;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px; /* Arredonda todos os vértices */
+}
+Explicação da Propriedade border-radius:
+
+border-radius define o grau de arredondamento dos vértices. No exemplo acima, utilizamos 15px para criar uma borda suave.
+Você pode definir valores diferentes para cada vértice:
+border-radius: 15px 30px 45px 60px; aplica valores diferentes no sentido horário, começando do canto superior esquerdo.
+Exemplos Avançados
+Círculos: Se a altura e largura da caixa forem iguais, e border-radius for 50%, podemos criar um círculo:
+
+css
+Copiar código
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50%;
+}
+Apenas Alguns Cântos:
+
+Se você quiser arredondar apenas alguns vértices, pode usar propriedades específicas:
+css
+Copiar código
+.caixa-personalizada {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+Conclusão
+Usar border-radius é uma forma simples e eficaz de melhorar o design de suas caixas, tornando o layout mais suave e agradável aos usuários. Experimente diferentes valores e combinações para entender como eles afetam o visual dos elementos.
+
+
+
+
+

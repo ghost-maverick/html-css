@@ -1,0 +1,23 @@
+Pseudo-classes em CSS são palavras-chave que você pode adicionar aos seletores para aplicar estilos a elementos em estados específicos, sem precisar adicionar classes ou IDs ao HTML. Eles ajudam a definir o estilo com base em estados sonoros do elemento, como quando o usuário interage com ele. Vou detalhar algumas das mais usadas:
+
+:hover: Aplica um estilo quando o usuário posiciona o cursor sobre um elemento. Muito usado em botões e links para indicar que algo pode ser clicado.
+
+:active: Representa o momento em que o elemento está sendo ativado, geralmente quando um link ou botão está sendo pressionado.
+
+:focus: É usado quando um elemento recebe foco, seja por clique ou por tabulação. Aplicado principalmente a campos de formulário e links, destacando o elemento que está ativo.
+
+:nth-child(): Seleciona um ou mais elementos com base na posição entre seus irmãos. Pode ser usado com números, palavras-chave (como oddou even), ou fórmulas para definir quais elementos serão estilizados.
+
+:first-childe :last-child: Selecionamos o primeiro ou o último elemento dentro de um contêiner. São úteis quando você deseja estilizar elementos específicos sem precisar de classes extras.
+
+:nth-of-type(): Semelhante ao :nth-child(), mas selecione apenas elementos do mesmo tipo (tag) dentro de um contêiner. Pode ser útil quando há elementos de tipos diferentes e você deseja estilizar apenas um grupo específico.
+
+:not(): Seleciona elementos que não atendem ao seletor especificado entre parênteses. Ajuda a evitar a reprodução de estilos ao excluir certos elementos.
+
+:checked: Aplique-se a elementos como input(tipos checkboxou radio) que estão marcados.
+
+:disabled,:enabled : aplica estilos a elementos de formulário que estão desativados ou ativados. Muito usado para indicar campos que estão ou não disponíveis para interação.
+
+:beforee :after: Não são pseudo-classes, mas sim pseudo-elementos. No entanto, vale mencioná-los aqui, já que são usados ??frequentemente para adicionar conteúdo estilizado antes ou depois do conteúdo principal de um elemento.
+
+As pseudo-classes tornam o CSS mais dinâmico e ajudam a criar interações visuais, como efeitos de animação ou destaque em estados específicos, sem precisar adicionar JavaScript ou classes extras ao HTML.

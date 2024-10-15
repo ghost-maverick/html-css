@@ -1,0 +1,97 @@
+O seletor de classCSS é amplamente usado para aplicar estilos a um ou mais elementos em uma página HTML. Diferente do idque classnão precisa ser único, o que permite reutilizar o mesmo conjunto de estilos em vários elementos.
+
+Como Funciona
+Para aplicar CSS usando class, você deve primeiro considerar um atributo classao elemento HTML e, em seguida, utilizar o seletor .seguido pelo nome do classno CSS. Veja um exemplo:
+
+HTML->
+
+Copiar código
+<!-- HTML -->
+<div class="container">This is a container</div>
+<p class="text-primary">This is a paragraph</p>
+css
+
+Copiar código
+/* CSS */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.text-primary {
+  color: blue;
+  font-size: 16px;
+}
+Nenhum exemplo acima:
+
+O <div>tem uma classchamada container, e o <p>tem uma classchamada text-primary.
+No CSS, usamos os seletores .containere .text-primarypara definir estilos.
+Características do Seletorclass
+Reutilizável : A principal vantagem do seletor classé a possibilidade de ser reutilizado em vários elementos. Você pode aplicar a mesma coisa classa quantos elementos desejar.
+Especificidade : A especificidade de um seletor classé maior do que a de um seletor de elemento ( tag), mas menor que a de um seletor de id. Isso significa que, em caso de conflito de estilos, um idterá prioridade sobre um class.
+Sintaxe CSS : Para selecionar um elemento pelo seu atributo class, use o ponto( .) seguido pelo nome da class. Exemplo: .minhaClasse {}.
+Uso Comum
+O seletor de classé muito usado quando você deseja aplicar estilos semelhantes a vários elementos, como:
+
+Botões ( .btn).
+Parágrafos com estilo específico ( .highlight).
+Recipientes de layout ( .wrapper).
+Utilizando Múltiplas Classes
+Um elemento pode ter vários classesao mesmo tempo, permitindo que você combine diferentes estilos em um único elemento. Para fazer isso, basta separar os nomes das classes por um espaço no HTML:
+
+HTML->
+
+Copiar código
+<button class="btn btn-primary large">Click Me</button>
+No exemplo acima, o botão tem três classes: btn, btn-primarye large. Cada uma delas pode aplicar um conjunto específico de estilos ao botão.
+
+No CSS, os estilos desses classespodem ser definidos assim:
+
+css
+
+Copiar código
+.btn {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+
+.large {
+  font-size: 18px;
+}
+Diferença Entre classeid
+class: Pode ser usado em vários elementos. É ideal para aplicar um estilo a vários elementos que se assemelham à mesma aparência.
+id: Deve ser único em toda a página. É usado quando você quer aplicar um estilo específico a um único elemento.
+Especificidade e Conflitos
+Se um elemento possui tanto um idquanto uma class, o estilo aplicado pelo idprevalecerá, pois ele tem uma maior especificidade. Exemplo:
+
+HTML->
+
+Copiar código
+<div id="main-content" class="content-box">Content here</div>
+css
+
+Copiar código
+/* CSS */
+.content-box {
+  background-color: green;
+}
+
+#main-content {
+  background-color: yellow;
+}
+Neste exemplo, o fundo será amarelo porque o seletor de id( #main-content) tem maior especificidade do que a class( .content-box).
+
+Conclusão
+O seletor classé uma das ferramentas mais flexíveis do CSS para aplicar estilos de maneira reutilizável em uma página. Ele permite organizar e aplicar estilos de forma consistente, economizando tempo e tornando o código mais limpo e fácil de manter. As aulas são especialmente úteis quando você deseja criar elementos de aparência semelhantes em diferentes partes da página.
+
+
+
+
+
+

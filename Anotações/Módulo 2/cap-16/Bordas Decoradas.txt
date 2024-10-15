@@ -1,0 +1,102 @@
+Aula: Bordas Decoradas
+Objetivo : Aprender a estilizar bordas de elementos HTML com CSS, criando efeitos decorativos que tornam o design da página mais interessante.
+
+Introdução
+As bordas são uma parte essencial do design de uma página web, usadas para destacar, separar ou decorar elementos. Utilizando CSS, podemos personalizar as bordas de várias formas, como alterar sua cor, espessura, estilo e até mesmo aplicar imagens. Vamos explorar como criar bordas decoradas para tornar seus elementos mais específicos.
+
+Estrutura HTML
+Começamos com um exemplo simples de uma caixa HTML para estilizar:
+
+HTML->
+
+Copiar código
+<div class="caixa-borda-decorada">
+    Caixa com borda decorada.
+</div>
+Estilização CSS
+Podemos usar a propriedade borderpara personalizar a borda do elemento. Abaixo, veremos algumas formas de decorar as bordas.
+
+1. Bordas Básicas
+css
+
+Copiar código
+.caixa-borda-decorada {
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid black; /* Largura, estilo e cor */
+}
+2. Estilos de Bordas
+CSS oferece diversos estilos de bordas que podem ser aplicados para variedade ou visual:
+
+sólido : Cria uma borda sólida.
+pontilhado : Cria uma borda pontilhada.
+tracejado : Cria uma borda tracejada.
+double : Cria uma borda dupla.
+Exemplo com estilos diferentes:
+
+css
+
+Copiar código
+.borda-pontilhada {
+    border: 3px dotted blue;
+}
+
+.borda-tracejada {
+    border: 3px dashed red;
+}
+
+.borda-dupla {
+    border: 6px double green;
+}
+3. Bordas com Imagem
+Podemos usar a propriedade border-imagepara aplicar uma imagem como borda ao elemento:
+
+css
+
+Copiar código
+.borda-imagem {
+    border: 10px solid transparent;
+    border-image: url('borda-decorativa.png') 30 stretch;
+}
+border-image-source : Especifica a imagem a ser usada como borda.
+border-image-slice : Controla como a imagem será cortada para criar a borda.
+4. Bordas com Cores Gradientes
+CSS permite criar bordas com gradientes, utilizando borderjunto com background-clip:
+
+css
+
+Copiar código
+.borda-gradiente {
+    border: 5px solid transparent;
+    background: linear-gradient(to right, red, yellow);
+    padding: 20px;
+    background-clip: padding-box;
+    border-image-slice: 1;
+}
+Personalização Avançada
+Bordas arredondadas : Podemos combinar bordercom border-radiuspara bordas com vértices arredondados:
+
+css
+
+Copiar código
+.borda-arredondada {
+    border: 5px solid purple;
+    border-radius: 20px;
+}
+Bordas em apenas um lado : Podemos aplicar a borda a apenas um lado do elemento:
+
+css
+
+Copiar código
+.borda-inferior {
+    border-bottom: 4px solid orange;
+}
+Conclusão
+Bordas decoradas são uma ferramenta poderosa para melhorar a aparência dos elementos em uma página web. Com border, border-radiuse border-image, você pode criar designs únicos e visualmente sombrios. Experimente diferentes combinações para criar elementos destacados e criativos!
+
+
+
+
+

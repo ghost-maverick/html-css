@@ -1,0 +1,59 @@
+Essas tags são conhecidas como elementos de estrutura semântica do HTML5. Elas ajudam a definir claramente as seções de uma página, tornando o conteúdo mais acessível e compreensível tanto para humanos quanto para máquinas (como motores de busca). Vamos detalhar cada uma delas:
+
+<header>
+
+Define o cabeçalho de uma página ou seção.
+Geralmente, contém elementos como o título da página, logotipos, menus de navegação, ou introduções.
+Pode ser utilizado mais de uma vez em uma página, por exemplo, para definir o cabeçalho de um artigo ou seção.
+<nav>
+
+Representa uma seção de links de navegação.
+Usado para agrupar links importantes para a navegação no site, como menus principais, barras laterais, ou links de rodapé que ajudam o usuário a explorar diferentes páginas ou partes do site.
+Deve ser usado apenas para links relevantes para a navegação global ou principal, não para links internos menores.
+<main>
+
+Representa o conteúdo principal do documento.
+Deve ser único na página e envolve o conteúdo principal diretamente relacionado ao propósito da página.
+Exclui conteúdo que é repetido em várias páginas, como barras laterais, cabeçalhos e rodapés.
+<section>
+
+Define uma seção genérica de um documento.
+É usada para dividir conteúdo em partes tematicamente relacionadas. Cada seção geralmente possui um cabeçalho (<h1> a <h6>).
+Por exemplo, uma página de blog poderia ter várias seções, cada uma com um tópico ou assunto específico.
+<article>
+
+Representa um conteúdo independente que pode ser distribuído separadamente ou reutilizado, como um post de blog, um artigo de jornal, uma entrada de fórum ou um comentário.
+É usado quando o conteúdo é algo que pode fazer sentido sozinho, sem depender do contexto da página.
+<aside>
+
+Define um conteúdo secundário ou complementar ao conteúdo principal.
+Usado para barras laterais, widgets, ou informações adicionais que estão relacionadas indiretamente ao conteúdo principal, como citações, links para artigos relacionados, ou anúncios.
+Tipicamente, aparece na lateral da página ou como uma seção adicional que não é essencial ao fluxo principal.
+<footer>
+
+Representa o rodapé do documento ou de uma seção.
+Geralmente contém informações como créditos, links para páginas importantes (como termos de serviço, política de privacidade), ou informações de contato.
+Assim como o <header>, pode ser utilizado mais de uma vez na página, por exemplo, para definir o rodapé de um artigo ou seção específica.
+Esses elementos semânticos ajudam a estruturar a página de uma forma que seja lógica e compreensível, tornando-a mais acessível e amigável para motores de busca e dispositivos assistivos. Além disso, essa estrutura auxilia no SEO, pois os motores de busca podem entender melhor o significado e a hierarquia do conteúdo da página.
+
+
+					RESUMO
+
+Tags de agrupamento (grouping tags):
+
+- Sem valor semântico:
+
+   <div>		-> block
+   <span>	-> inline
+
+- Com valor semântico:
+
+  <header>		-> cabeçalho
+       <nav>	        -> para menus, links, navegação
+
+ <main>			       -> principal
+   <section>		       -> seção
+	 <article>	       -> artigo
+		 <aside>	       -> periférico ao artigo (ex: escritor / autor)
+
+ <footer>	               -> rodapé

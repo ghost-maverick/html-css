@@ -1,0 +1,67 @@
+O alinhamento de textos com CSS permite que você controle como o conteúdo de um texto será posicionado dentro de seus elementos contêineres. Há diversas propriedades no CSS para ajustar o alinhamento do texto, dependendo do que você deseja alcançar:
+
+1. text-align
+A propriedade text-align define o alinhamento horizontal do texto dentro de um elemento em relação ao seu contêiner.
+
+Valores mais comuns:
+
+left: Alinha o texto à esquerda (padrão).
+right: Alinha o texto à direita.
+center: Centraliza o texto.
+justify: Faz com que o texto se espalhe uniformemente pelas linhas, ajustando o espaçamento entre as palavras para alinhar o texto tanto à esquerda quanto à direita.
+Exemplo de uso:
+
+css
+Copiar código
+p {
+  text-align: justify;
+}
+2. vertical-align
+Essa propriedade é usada para controlar o alinhamento vertical de um texto dentro de um contêiner ou em relação a outros elementos. Funciona melhor com elementos inline ou inline-block.
+
+Valores mais comuns:
+baseline: Alinha o texto à linha de base do seu contêiner (padrão).
+top: Alinha o texto ao topo do contêiner.
+middle: Alinha o texto verticalmente no meio.
+bottom: Alinha o texto ao fundo do contêiner.
+3. line-height
+A propriedade line-height ajusta o espaço vertical entre as linhas de texto. Isso pode afetar o alinhamento visual do texto quando há múltiplas linhas em um parágrafo.
+
+Exemplo de uso:
+css
+Copiar código
+p {
+  line-height: 1.5;
+}
+4. text-indent
+Controla a indentação da primeira linha do texto dentro de um bloco.
+
+Valor mais comum:
+Um valor em unidades de medida (como px, em, etc.) ou percentual.
+Exemplo de uso:
+css
+Copiar código
+p {
+  text-indent: 20px;
+}
+5. direction
+Define a direção em que o texto deve ser exibido, especialmente útil para idiomas que são lidos da direita para a esquerda.
+
+Valores mais comuns:
+ltr: Esquerda para direita (padrão para a maioria dos idiomas).
+rtl: Direita para esquerda (usado para idiomas como árabe e hebraico).
+6. writing-mode
+Esta propriedade controla a direção em que o texto é escrito, como de cima para baixo ou da esquerda para a direita.
+
+Valores mais comuns:
+horizontal-tb: O texto é escrito horizontalmente, da esquerda para a direita (padrão).
+vertical-rl: O texto é escrito verticalmente, de cima para baixo, com a primeira linha à direita.
+vertical-lr: O texto é escrito verticalmente, de cima para baixo, com a primeira linha à esquerda.
+7. text-transform
+Essa propriedade altera a capitalização do texto, o que pode impactar o estilo visual, embora não seja um "alinhamento" no sentido estrito.
+
+Valores mais comuns:
+uppercase: Todas as letras ficam maiúsculas.
+lowercase: Todas as letras ficam minúsculas.
+capitalize: A primeira letra de cada palavra fica maiúscula.
+Essas propriedades, quando combinadas, oferecem um controle muito detalhado sobre como o texto será exibido em relação ao seu contêiner e a outros elementos.
