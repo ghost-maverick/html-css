@@ -1,0 +1,162 @@
+                                                    MÓDULO 1 - ANOTÁÇÕES
+
+
+<h1>: Defina o título principal da página. É o título de maior importância e geralmente usado apenas uma vez por página para destacar o tema principal.
+
+
+<h2>a<h6> : Representam subcabeçalhos em ordem decrescente de importância, ajudando a organizar o conteúdo em detalhados e subseções.
+
+
+<p>: Defina um parágrafo de texto. É usado para agrupar blocos de texto e criar espaçamento entre eles, facilitando a leitura e organização do conteúdo textual na página.
+
+
+<hr>: Insira uma linha horizontal na página. Geralmente usado para separar fragmentos visualmente de conteúdo, como uma divisão temática ou uma mudança de assunto. Não é necessária uma tag de fechamento.
+
+
+<br>: Insira uma quebra de linha no texto, fazendo com que o conteúdo a seguir comece na linha seguinte. Não precisa de uma tag de fechamento e é útil para criar quebras simples sem iniciar um novo parágrafo.
+
+
+&lt;: Representa o símbolo de "menor que" ( <). Usado em HTML para exibir o caractere <sem que seja interpretado como uma tag.
+
+&gt;: Representa o símbolo de "maior que" ( >). Usado em HTML para exibir o caractere >sem que seja interpretado como uma tag.
+
+
+&amp;: Representa o símbolo "&" (e comercial). É usado em HTML para exibir o caractere &sem que seja confundido com o início de uma entidade HTML.
+Por exemplo, &amp;será exibido como &na página.
+
+
+Emogi: copie e cole o Emogi no código, ou copie o némero do Emogi.
+
+
+<img>: Insira uma imagem na página. Utilize o atributo srcpara definir o caminho da imagem (ou link) e o atributo altpara fornecer texto alternativo. Não requer tag de fechamento.
+
+<picture>: Defina um contêiner para diferentes fontes de imagens, permitindo escolher qual imagem exibir com base em condições como largura da tela ou densidade de pixels. Funciona em conjunto com a tag <source>e a tag <img>.
+
+source>: Especifica múltiplas fontes para elementos de mídia, como <picture>, <audio>, e <video>. Usado para definir diferentes arquivos com base em critérios como largura de tela, tipo de mídia ou formato suportado.
+
+
+rel(em <link>) : Define a relação entre o documento atual e o recurso vinculado. Usado para especificar o tipo de vínculo, como "stylesheet" para folhas de estilo ou "icon" para ícones.
+
+shortcut icon: Valor do atributo relna tag <link>que define o ícone da página (favicon). Usado para exibir um ícone na aba do navegador.
+
+
+<address>: Representa informações de contato do autor ou do proprietário do documento ou seção. Geralmente usada para exibir endereços, e-mails ou outras formas de contato.
+
+
+<strong>: Destaca o texto com negrito e indica que o conteúdo é de forte importância. Adicionada ênfase semântica ao texto.
+
+
+<em>: Destaca o texto com ênfase, geralmente exibindo-o em itálico. Adiciona importância semântica ao conteúdo.
+
+
+<mark>: Destaca texto visualmente, geralmente com um fundo amarelo, para indicar que é relevante ou importante.
+
+
+<small>: Exibe texto em um tamanho menor do que o texto ao redor, geralmente para notas de rodapé ou informações menos importantes.
+
+
+<del>: Indica que o texto foi excluído ou removido de um documento. Geralmente aparece riscado.
+
+
+<ins>: Indica que o texto foi inserido ou adicionado a um documento. Geralmente aparece sublinhado.
+
+
+<sup>: Exibe texto como sobrescrito, geralmente usado para expoentes ou notas de rodapé.
+
+
+<sub>: Exibe texto como subscrito, geralmente usado para fórmulas químicas ou índices.
+
+
+<code>: Exibe um trecho de código em uma fonte monoespaçada, sem aplicar formatação especial.
+
+
+<pre>: Exibe texto preservando espaços em branco, quebras de linha e formatação. Usa uma fonte monoespaçada, ideal para exibir código ou texto formatado.
+
+
+<q>: Defina uma citação curta, que geralmente aparece entre aspas.
+
+
+<blockquote>: Define uma citação longa ou uma citação em bloco, geralmente exibida com uma margem indentada.
+
+
+<abbr>: Defina uma abreviação ou sigla. Usado com o atributo titlepara fornecer a expansão completa ou a forma completa da abreviação.
+
+
+<bdo>: Defina a direção do texto, permitindo que você sobrescreva a direção padrão (da esquerda para a direita ou da direita para a esquerda).
+
+
+<ol>: Define uma lista ordenada, onde os itens são numerados automaticamente.
+<ul>: Define uma lista não ordenada, onde os itens são exibidos com marcadores (bolinhas).
+<li>: Define um item de lista dentro de uma <ul> (lista não ordenada) ou <ol> (lista ordenada).
+
+type (em <ol>): Define o tipo de numeração para a lista ordenada. Pode ser 1 (números), A (letras maiúsculas), a (letras minúsculas), I (números romanos maiúsculos) ou i (números romanos minúsculos).
+start (em <ol>): Define o número inicial da lista ordenada. Substitui o número padrão de início.
+
+
+<dl>: Define uma lista de definição, composta por termos e suas respectivas descrições. Usa as tags <dt> para os termos e <dd> para as descrições.
+<dt>: Define o termo de uma lista de definição, usado dentro de uma <dl>(lista de definição).
+<dd>: Defina uma descrição ou definição de um termo em uma lista de definição, usada dentro de uma <dl>(lista de definição).
+
+
+<a>: Define um link (âncora). Usado para criar hiperlinks para outras páginas, endereços de e-mail ou âncoras na mesma página. Utiliza o atributo href para especificar o destino do link.
+
+target: Define onde o link será aberto. Pode ter os valores:
+_blank: Abre o link em uma nova aba ou janela.
+_self: Abre o link na mesma aba ou janela (padrão).
+_parent: Abre o link no pai do frame atual.
+_top: Abre o link na janela inteira, ignorando todos os frames.
+
+rel: Define a relação entre o documento atual e o recurso vinculado. Usado para especificar o tipo de vínculo, como noopener, noreferrer, nofollow, entre outros.
+
+noopener: Garante que a nova página não possa acessar o window.opener, ajudando a proteger a segurança.
+noreferrer: Impede que o referenciador (a URL da página de origem) seja enviado para o link de destino, aumentando a privacidade.
+nofollow: Indica os mecanismos de busca para não seguir o link, usado para evitar a transmissão da autoridade de SEO para o link.
+noreferrer noopener: Combina as funcionalidades de noopenere noreferrer.
+prev: Indica um link para o conteúdo anterior (geralmente usado na navegação).
+next: Indica um link para o conteúdo seguinte (geralmente usado na navegação).
+author: Indica um link para a página do autor.
+bookmark: Indica um link para a página de favoritos ou marca-página.
+license: Indica um link para a licença de conteúdo.
+alternate: Indica um link para uma versão alternativa do conteúdo, como uma versão impressa ou traduzida.
+
+download: Sugere que o link deve ser tratado como um download, permitindo que o usuário baixe o recurso vinculado em vez de abri-lo.
+
+
+<audio>: Incorpora um arquivo de áudio em uma página web. Pode incluir controles para reprodução, como play, pause e volume. Use uma tag <source>para fornecer diferentes formatos de áudio.
+
+audio/mpeg: Para arquivos MP3 (.mp3).
+audio/ogg: Para arquivos Ogg Vorbis (.ogg).
+audio/wav: Para arquivos WAV (.wav).
+audio/aac: Para arquivos AAC (.aac).
+audio/webm: Para arquivos WebM (.webm).
+Esses são os principais tipos, e você pode especificar o formato no atributo type dentro da tag <source>.
+
+reload (em <audio>): Define se o arquivo de áudio deve ser carregado automaticamente quando a página é carregada. Possui três valores:
+auto: O navegador decide o que carregar (geralmente carrega o arquivo inteiro).
+metadata: Carrega apenas os metadados (duração, dimensões, etc.).
+none: Não carrega o áudio automaticamente.
+
+controls (em <audio>): Exibe os controles padrão de reprodução, como play, pause e volume, permitindo ao usuário interagir com o áudio.
+
+
+<video>: Incorpora um vídeo em uma página web. Pode incluir controles de reprodução, como play, pause, volume, entre outros. Use uma tag <source>para fornecer diferentes formatos de vídeo.
+
+width (em <video>): Define a largura do player de vídeo em pixels.
+height (em <video>): Define a altura do player de vídeo em pixels.
+
+poster (em <video>): Define uma imagem que será exibida antes do vídeo começar a ser reproduzido. Serve como uma miniatura ou imagem de pré-visualização do vídeo.
+
+Videos externos: Click em compartilhar, depois em "incorporar", depois copie o código e cole.
+
+
+
+
+
+
+
+
+
+
+
+
+
