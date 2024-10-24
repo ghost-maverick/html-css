@@ -1,0 +1,18 @@
+?? RELEMBRANDO:
+
+Alinhamento horizontal:
+
+	      text-align: 	left;		(padrão)
+			                center;
+			                right;
+
+Alinhamento vertical:	
+
+	vertical-align:	top;
+			                middle;	(padrão)
+			                bottom;
+
+
+Para números à direita (padrão do Excel):
+
+	- Criar uma classe e alinhar os "td" dessa classe à direita (right).
